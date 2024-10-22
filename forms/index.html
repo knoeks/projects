@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="assets/mystyle.css">
+</head>
+
+<body class="body">
+    <h1 class="title">Dance Registration</h1>
+    <section class="title-section">
+        <p>Fill the registration form below keenly to enter the dancing competition.</p>
+        <hr>
+    </section>
+
+    <form action="POST">
+        <div class="rows">
+            <div class="column">
+
+                <label class="label">Name</label>
+                <section class="section">
+                    <input class="input" type="text" name="fname" id="firstname">
+                    <p>First Name</p>
+                </section>
+
+                <section class="section">
+                    <input class="input" type="text" name="lname" id="lastname">
+                    <p>Last Name</p>
+                </section>
+
+            </div>
+
+            <div class="column">
+
+                <label class="label">E-mail</label>
+                <section class="section">
+                    <input class="input" type="text" name="email" id="e-mail" placeholder="ex: myname@example.com">
+                    <p>example@example.com</p>
+                </section>
+
+            </div>
+
+            <div class="column">
+
+                <label class="label">Phone Number</label>
+                <section class="section">
+                    <input class="input" type="text" name="Acode" id="area-code">
+                    <span>-</span>
+                    <p>Area Code</p>
+                </section>
+
+                <section class="section">
+                    <input class="input" type="text" name="Phonenum" id="phone-number">
+                    <p>Phone Number</p>
+                </section>
+
+            </div>
+
+            <div class="column">
+
+                <label class="label">Gender</label>
+                <div class="column-1">
+
+                    <section class="section">
+                        <input type="radio" name="gender" id="male">
+                        <span>Male</span>
+                    </section>
+
+                    <section class="section">
+                        <input type="radio" name="gender" id="female">
+                        <span>Female</span>
+                    </section>
+
+                </div>
+            </div>
+
+            <div class="column-2">
+                <label class="label">Address</label>
+                <div class="bottom-margin">
+                    
+                    <section class="section">
+                        <input class="input" type="text" name="stAddress" id="st-address" >
+                        <p>Street Address</p>
+                    </section>    
+
+                    <section class="section">
+                        <input class="input" type="text" name="stAddress" id="st-address-2" >
+                        <p>Street Address Line 2</p>
+                    </section>
+
+                    <div class="same-row">
+                        <section class="section">
+                            <input class="input" type="text" name="City" id="city" >
+                            <p>City</p>
+                        </section>
+        
+                        <section class="section">
+                            <input class="input" type="text" name="State" id="state" >
+                            <p>State / Province</p>
+                        </section>
+                    </div>
+
+                    <div class="same-row">
+                        <section class="section">
+                            <input class="input" type="text" name="Postal" id="postal" >
+                            <p>Postal / Zip Code</p>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="column">
+
+                <label class="label">Type of Dance</label>
+                <div class="bottom-margin-1">
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="salsa">
+                        <span>Salsa</span>
+                    </section>
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="bachata">
+                        <span>Bachata</span>
+                    </section>
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="tango">
+                        <span>Tango</span>
+                    </section>
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="hiphop">
+                        <span>Hip Hop</span>
+                    </section>
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="club">
+                        <span>Club</span>
+                    </section>
+
+                    <section class="section-1">
+                        <input type="radio" name="Dance" id="other">
+                        <input class="input" type="text" name="Other" id="other-1" placeholder="Other">
+                    </section>
+
+                </div>    
+            </div>
+
+            <div class="column">
+
+                <label class="label">Start Day &#38; Time</label>
+                
+                <section class="section">
+                    <input class="input" type="text" name="Date" id="date">
+                </section>
+
+                <span>📅</span>
+
+                <section class="section">
+                    <select class="input" name="Hours" id="hours">
+                        <option value="1">1</option>
+                    </select>
+                    <p>Hour</p>
+                </section>
+
+                <span>:</span>
+
+                <section class="section">
+                    <select class="input" name="Minutes" id="minutes">
+                        <option value="1">1</option>
+                    </select>
+                    <p>Minutes</p>
+                </section>
+
+                <section class="section">
+                    <select class="input" name="Pm" id="pm">
+                        <option value="1">AM</option>
+                        <option value="1">PM</option>
+                    </select>
+                </section>
+
+            </div>
+            
+            <div class="column">
+
+                <label class="label">Comments</label>
+                <section class="section">
+                    <textarea class="input" name="Comments" id="comments"></textarea>
+                </section>
+                
+            </div>
+
+            <button class="submit" type="submit">Submit</button>
+        </div>
+
+            
+    </form>
+</body>
+
+</html>

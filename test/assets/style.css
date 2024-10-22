@@ -1,0 +1,11 @@
+li:hover::before {
+    content: "";
+    color: #ff0000;
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+

@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    min-width: 60rem;
+    background-color:  #fcf1b7;
+    font-family: "Roboto", sans-serif;
+}
+
+.centered {
+    margin: 2rem;
+}
+
+.logo {
+    background-color: #ecc23c;
+    margin: 0rem;
+    padding: 2rem;
+}
+
+.nav {
+    color: #ffffff;
+    font-size: 1.25rem;
+    background-color: #550f06;
+    padding-block: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #ffffff;
+    margin-block: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.banner img {
+    height: 8rem;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.article {
+    background-color: #ffffff;
+    margin-block: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.article h2 {
+    font-size: 2rem;
+    margin-block: 0.75rem;
+}
+
+.article div {
+    margin-inline: 1rem;
+}
+
+.article ul {
+    padding-left: 1.25rem;
+}
+
+.article fieldset {
+    margin-inline: auto;
+    width: 50%;
+}
+
+.article textarea {
+    width: 12rem;
+    height: 8rem;
+}
+
+.article input[type=text], .article input[type=number], .article input[type=date], .article textarea, .article select {
+    border: 0.125rem #c9c9c9 solid;
+    border-radius: 0.125rem;
+}
+
+.article-center {
+    background-color: #ffffff;
+    margin-block: 0.5rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.article-center h2 {
+    font-size: 2rem;
+    margin-block: 0.75rem;
+    text-align: center;
+}
+
+.article-center div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.article-center img {
+    width: 100%
+}
+
+.article-center figcaption {
+    padding-block: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: #ecc23c;
+}
+
+.footer h2 {
+    padding-block: 1rem 0.75rem;
+    width: fit-content;
+    margin: auto;
+}

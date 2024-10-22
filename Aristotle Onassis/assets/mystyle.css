@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.div {
+    margin: 1.5rem;
+}
+
+.header {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.header h1 {
+    margin: 0rem;
+    margin-top: 1em;
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+
+.header h2 {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeeeee;
+    color: #3d3d3d;
+}
+
+.body h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.section-description {
+    font-size: 0.75rem;
+    font-weight: 700;
+    
+}
+
+.section-description p {
+    margin: 1rem 2.5rem;
+    padding: 0.25rem;
+    line-height: 1.25rem;
+    border: 0.125rem solid #d1d1d1;
+    border-radius: 0.25rem;
+}
+
+.section-description figure {
+    border: 0.125rem solid #d1d1d1;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.section-description img {
+    padding: 0.25rem;
+    border-radius: 100%;
+}
+
+.section-description figcaption {
+    padding: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: #cccccc;
+}
+
+.figure-list li {
+    font-size: 0.825rem;
+    font-weight: 600;
+    line-height: 1.125rem;
+}
+
+.figure-list span {
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.825rem;
+    font-style: italic;
+}
+
+.footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.body {
+
+    margin: 1rem;
+}
+
+.body h1 {
+    text-align: center;
+}
+
+.table {
+    min-width: 72rem;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbody img {
+    width: 10rem;
+}
