@@ -1,0 +1,57 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    grid-template-rows: repeat(3, 7rem);
+
+    grid-template-areas: 
+        'green-left green-mid green-mid red-right'
+        'green-left orange-left red-mid green-right'
+        'green-left red-left orange-right green-right'
+
+    ;
+    gap: 1rem;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.green-left {
+    grid-area: green-left;
+}
+
+.green-mid {
+    grid-area: green-mid;
+}
+
+.red-right {
+    grid-area: red-right;
+}
+
+.orange-left {
+    grid-area: orange-left;
+}
+
+.red-mid {
+    grid-area: red-mid;
+}
+
+.green-right {
+    grid-area: green-right;
+}
+
+.red-left {
+    grid-area: red-left;
+}
+
+.orange-right {
+    grid-area: orange-right;
+}

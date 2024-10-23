@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 10rem);
+    grid-template-rows: repeat(3, 7rem);
+    gap: 1rem;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.green-left {
+    grid-row: 1 / 4;
+}
+
+.green-mid {
+    grid-column: 2 / 4;
+}
+
+.green-right {
+    grid-area: 2 / 4 / 4 / 5;
+}
