@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 93.75em) {
     .properties-grid {
         grid-template-columns: repeat(3, 28.8125rem);
         grid-template-rows: repeat(3, 7.75rem);
@@ -17,7 +17,7 @@
 
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 93.75em) {
     .properties-grid {
         grid-template-columns: repeat(3, 18.5625rem);
         grid-template-rows: repeat(3, 7.75rem);
@@ -30,7 +30,7 @@
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 62.5em) {
     .properties-grid {
         grid-template-columns: repeat(1, 28rem);
         grid-template-rows: repeat(9, 6,25rem);
